@@ -27,7 +27,11 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_libphonenumber_android: ^1.0.1
+  flutter_libphonenumber_android:
+    git:
+      url: git@github.com:GoHighLevel/flutter_libphonenumber.git
+      path: packages/flutter_libphonenumber_android
+      ref: 1.0.2_android
   flutter_libphonenumber_ios: ^1.2.0
   flutter_libphonenumber_platform_interface: ^1.0.0
   flutter_libphonenumber_web: ^1.0.0
