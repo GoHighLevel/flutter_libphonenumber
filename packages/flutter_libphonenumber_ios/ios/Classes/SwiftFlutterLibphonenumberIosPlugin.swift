@@ -25,7 +25,7 @@ public class SwiftFlutterLibphonenumberPlugin: NSObject, FlutterPlugin {
         }
     }
     
-    private let kit = PhoneNumberKit()
+    private let kit = PhoneNumberUtility()
     
     // Get all regions and assemble their phone mask data.
     private func getAllSupportedRegions(result: @escaping FlutterResult) {
